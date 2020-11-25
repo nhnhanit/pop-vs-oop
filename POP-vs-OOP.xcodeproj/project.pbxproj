@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47AA4143256DEE3A003CCA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4142256DEE3A003CCA9A /* AppDelegate.swift */; };
+		47AA4145256DEE3A003CCA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4144256DEE3A003CCA9A /* SceneDelegate.swift */; };
+		47AA4147256DEE3A003CCA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4146256DEE3A003CCA9A /* ViewController.swift */; };
+		47AA414A256DEE3A003CCA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA4148256DEE3A003CCA9A /* Main.storyboard */; };
+		47AA414C256DEE3A003CCA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AA414B256DEE3A003CCA9A /* Assets.xcassets */; };
+		47AA414F256DEE3A003CCA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AA414D256DEE3A003CCA9A /* LaunchScreen.storyboard */; };
+		47AA4159256DF011003CCA9A /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4158256DF011003CCA9A /* Bird.swift */; };
+		47AA415D256DF032003CCA9A /* Parrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA415C256DF032003CCA9A /* Parrot.swift */; };
+		47AA4160256DF042003CCA9A /* Eagle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA415F256DF042003CCA9A /* Eagle.swift */; };
+		47AA4163256DF0D1003CCA9A /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4162256DF0D1003CCA9A /* Penguin.swift */; };
+		47AA4167256DF420003CCA9A /* BirdProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4166256DF420003CCA9A /* BirdProtocols.swift */; };
+		47AA416C256DF71D003CCA9A /* ParrotStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA416B256DF71D003CCA9A /* ParrotStruct.swift */; };
+		47AA4170256DF7B1003CCA9A /* EagleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA416F256DF7B1003CCA9A /* EagleStruct.swift */; };
+		47AA4173256DF7BF003CCA9A /* PenguinStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4172256DF7BF003CCA9A /* PenguinStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47AA413F256DEE3A003CCA9A /* POP-vs-OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POP-vs-OOP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AA4142256DEE3A003CCA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47AA4144256DEE3A003CCA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47AA4146256DEE3A003CCA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47AA4149256DEE3A003CCA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47AA414B256DEE3A003CCA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47AA414E256DEE3A003CCA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47AA4150256DEE3A003CCA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA4158256DF011003CCA9A /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		47AA415C256DF032003CCA9A /* Parrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parrot.swift; sourceTree = "<group>"; };
+		47AA415F256DF042003CCA9A /* Eagle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle.swift; sourceTree = "<group>"; };
+		47AA4162256DF0D1003CCA9A /* Penguin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		47AA4166256DF420003CCA9A /* BirdProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdProtocols.swift; sourceTree = "<group>"; };
+		47AA416B256DF71D003CCA9A /* ParrotStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotStruct.swift; sourceTree = "<group>"; };
+		47AA416F256DF7B1003CCA9A /* EagleStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleStruct.swift; sourceTree = "<group>"; };
+		47AA4172256DF7BF003CCA9A /* PenguinStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AA413C256DEE3A003CCA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47AA4136256DEE3A003CCA9A = {
+			isa = PBXGroup;
+			children = (
+				47AA4141256DEE3A003CCA9A /* POP-vs-OOP */,
+				47AA4140256DEE3A003CCA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AA4140256DEE3A003CCA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AA413F256DEE3A003CCA9A /* POP-vs-OOP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AA4141256DEE3A003CCA9A /* POP-vs-OOP */ = {
+			isa = PBXGroup;
+			children = (
+				47AA4165256DF404003CCA9A /* Structs */,
+				47AA4157256DF002003CCA9A /* Classes */,
+				47AA4142256DEE3A003CCA9A /* AppDelegate.swift */,
+				47AA4144256DEE3A003CCA9A /* SceneDelegate.swift */,
+				47AA4146256DEE3A003CCA9A /* ViewController.swift */,
+				47AA4148256DEE3A003CCA9A /* Main.storyboard */,
+				47AA414B256DEE3A003CCA9A /* Assets.xcassets */,
+				47AA414D256DEE3A003CCA9A /* LaunchScreen.storyboard */,
+				47AA4150256DEE3A003CCA9A /* Info.plist */,
+			);
+			path = "POP-vs-OOP";
+			sourceTree = "<group>";
+		};
+		47AA4157256DF002003CCA9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47AA4158256DF011003CCA9A /* Bird.swift */,
+				47AA415C256DF032003CCA9A /* Parrot.swift */,
+				47AA415F256DF042003CCA9A /* Eagle.swift */,
+				47AA4162256DF0D1003CCA9A /* Penguin.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		47AA4165256DF404003CCA9A /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				47AA4166256DF420003CCA9A /* BirdProtocols.swift */,
+				47AA416B256DF71D003CCA9A /* ParrotStruct.swift */,
+				47AA416F256DF7B1003CCA9A /* EagleStruct.swift */,
+				47AA4172256DF7BF003CCA9A /* PenguinStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AA413E256DEE3A003CCA9A /* POP-vs-OOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AA4153256DEE3A003CCA9A /* Build configuration list for PBXNativeTarget "POP-vs-OOP" */;
+			buildPhases = (
+				47AA413B256DEE3A003CCA9A /* Sources */,
+				47AA413C256DEE3A003CCA9A /* Frameworks */,
+				47AA413D256DEE3A003CCA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POP-vs-OOP";
+			productName = "POP-vs-OOP";
+			productReference = 47AA413F256DEE3A003CCA9A /* POP-vs-OOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AA4137256DEE3A003CCA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					47AA413E256DEE3A003CCA9A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 47AA413A256DEE3A003CCA9A /* Build configuration list for PBXProject "POP-vs-OOP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AA4136256DEE3A003CCA9A;
+			productRefGroup = 47AA4140256DEE3A003CCA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AA413E256DEE3A003CCA9A /* POP-vs-OOP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AA413D256DEE3A003CCA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA414F256DEE3A003CCA9A /* LaunchScreen.storyboard in Resources */,
+				47AA414C256DEE3A003CCA9A /* Assets.xcassets in Resources */,
+				47AA414A256DEE3A003CCA9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AA413B256DEE3A003CCA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA4163256DF0D1003CCA9A /* Penguin.swift in Sources */,
+				47AA4160256DF042003CCA9A /* Eagle.swift in Sources */,
+				47AA4170256DF7B1003CCA9A /* EagleStruct.swift in Sources */,
+				47AA4173256DF7BF003CCA9A /* PenguinStruct.swift in Sources */,
+				47AA4147256DEE3A003CCA9A /* ViewController.swift in Sources */,
+				47AA415D256DF032003CCA9A /* Parrot.swift in Sources */,
+				47AA416C256DF71D003CCA9A /* ParrotStruct.swift in Sources */,
+				47AA4143256DEE3A003CCA9A /* AppDelegate.swift in Sources */,
+				47AA4159256DF011003CCA9A /* Bird.swift in Sources */,
+				47AA4167256DF420003CCA9A /* BirdProtocols.swift in Sources */,
+				47AA4145256DEE3A003CCA9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47AA4148256DEE3A003CCA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AA4149256DEE3A003CCA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47AA414D256DEE3A003CCA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AA414E256DEE3A003CCA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AA4151256DEE3A003CCA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47AA4152256DEE3A003CCA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47AA4154256DEE3A003CCA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-vs-OOP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.POP-vs-OOP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47AA4155256DEE3A003CCA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-vs-OOP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.POP-vs-OOP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AA413A256DEE3A003CCA9A /* Build configuration list for PBXProject "POP-vs-OOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA4151256DEE3A003CCA9A /* Debug */,
+				47AA4152256DEE3A003CCA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AA4153256DEE3A003CCA9A /* Build configuration list for PBXNativeTarget "POP-vs-OOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AA4154256DEE3A003CCA9A /* Debug */,
+				47AA4155256DEE3A003CCA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AA4137256DEE3A003CCA9A /* Project object */;
+}
